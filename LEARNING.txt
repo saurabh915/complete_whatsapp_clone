@@ -1,0 +1,61 @@
+1 LEARNED ABOUT MATERIAL UI
+
+2 LEARNED ABOUT CONTEXT API
+
+3. LEARNED ABOUT USE OF STYLED TO CHANGE STYLE OF MATERIAL UI COMPONENTS
+
+4. if you want to align all child components to right then  use below property
+
+margin-left: auto;
+
+5. WITH THE HELP OF PAPERPROPS YOU CAN CHANGE CSS OF MATERIAL UI COMPONENT AS SHOWN BELOW
+      
+const dialogStyle = {
+    height: '96%',
+    width:'60%',
+    marginTop:'12%',
+    maxWidth:'100%',
+    maxHeight:'100%',
+    boxShadow:'none',
+    overFlow: 'hidden'
+}
+
+
+  <Dialog open= {true} PaperProps={{sx:dialogStyle}} hideBackdrop={true}>
+
+
+6. z index is from 1 to 10000 
+
+7. npm init to start backend server 
+
+
+8. in server side while importing other files you have to write extensions of that file like 
+import  connection  from "./database/db.js";
+not like import  connection  from "./database/db";
+
+
+9. syntax of map 
+   users.map(user =>(
+          
+            <Conversation user ={user}/>
+        ))
+and in filter write like 
+
+const filteredData = response.filter(user=>
+  user.name.toLowerCase().includes(text.toLowerCase())
+)
+
+10. when we fetch data from server to frontend the data is stored in response.data
+
+
+11. middleware helps to do the things before doing actual things after hitting API'S
+
+
+12. Socket.io is used to send and receive message in real time 
+
+there are several functions for it \
+ like socket.emit to send message with particular api 
+
+ socket.on to receive message from particular api 
+
+ socket.to to send messge to particular user with socket id
