@@ -50,8 +50,8 @@ const filteredData = response.filter(user=>
 
 11. middleware helps to do the things before doing actual things after hitting API'S
 
-
-12. Socket.io is used to send and receive message in real time 
+12.  when we try to use same application by two user at same time then we need to async their chats with each other such that when any user log in in one app. and another user log in in another app at same time then 
+13. Socket.io is used to send and receive message in real time 
 
 there are several functions for it \
  like socket.emit to send message with particular api 
