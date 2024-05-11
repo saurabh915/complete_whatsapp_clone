@@ -3,7 +3,7 @@
     url = https://github.com/saurabh915/Whatsapp_clone.git
 [submodule "server"]
     path = server
-    url = https://github.com/saurabh915/Whatsapp_clone.git
+    url = https://github.com/saurabh915/WhatsApp_clone_backend
 [submodule "socket"]
     path = socket
-    url = https://github.com/saurabh915/Whatsapp_clone.git
+    url = https://github.com/saurabh915/WhatsApp_clone_socket
